@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    background-color: #fff7f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .englobe{
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 18%;
+  }
+  
+  h2 {
+    color: #d80027;
+    font-family: "Great Vibes", cursive;
+    font-size: 35px;
+}
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #d80027;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .links{
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  a{
+    margin: 0 10px;
+    color: #d80027;
+    text-decoration: none;
+  }
+
+  .pizza{
+    flex: auto;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista{
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(173, 17, 17);
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    word-spacing: 10px; 
+    list-style: none;
+    height: 70px;
+    margin-bottom: 900px;
+}
+
+ul{
+    background-color: rgb(173, 17, 17);
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    word-spacing: 10px; /* Aumenta el valor para más separación */
+    list-style: none;
+    height: 45px;
+    margin-top: 5px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  margin: 15px 0 5px;
+  color: #333;
+}
+
+.pizza:hover{
+  color: rgb(167, 18, 18);
+  background-color: rgb(195, 195, 11);
+  border-radius: 50px;
+}
+
+ul{
+  background-color: rgb(173, 17, 17);
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+  word-spacing: 10px; /* Aumenta el valor para más separación */
+  list-style: none;
+  height: 45px;
+  margin-top: 5px;
+}
