@@ -1,50 +1,75 @@
 <!DOCTYPE html>
 <html>
+    <link rel="stylesheet" href="tabla.css">
+    
     <title>Pizzeria Deliciosa</title>
-    <link rel="stylesheet" href="pizza.css">
-        <body>
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-            <a href="https://wa.me/123456789" target="_blank" class="wsp">
-            <i class="bi bi-whatsapp"></i>
-            </a>
-            </div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <a href="https://wa.me/123456789" target="_blank" class="wsp">
+        <i class="bi bi-whatsapp"></i>
+    </a>    
+
+    <div class="lista">
+        <ul>
+            <li class="pizza">Inicio</li>
+            <li class="pizza">Pizzas</li>
+            <li class="pizza"><a href="http://127.0.0.1:5500/historia.html">Nuestra Historia</a></li>            <li class="pizza">Tiendas</li>
+            <li class="pizza">Tiendas</li>
+            <li class="pizza">Promociones</li>
+            <li class="pizza"><a href="http://127.0.0.1:5500/sesi%C3%B3n.html">Iniciar sesión</a></li>
+            <li class="pizza"><i class="bi bi-cart-fill"></i> Carrito</li>
+        </ul>
+    </div>
+
+        <h1>Nuestras Pizzas</h1>
 
 
-            <div class="lista">
-                <ul>
-                    <li class="pizza">Inicio</li>
-                    <li class="pizza"><a href="http://127.0.0.7:5500/tabla.html" target="_blank">Pizzas</li>
-                    <li class="pizza"><a href="http://127.0.0.7:5500/histoia.html" target="_blank">Nuestra Historia</li>
-                    <li class="pizza">Tiendas</li>
-                    <li class="pizza">Promociones</li>
-                    <li class="pizza"><a href="http://127.0.0.7:5500/sesi%C3%B3n.html" target="_blank">Iniciar sesión</a></li>
-                    <li class="pizza">Carrito</li>
-                </ul>
-            </div>
-
-            <video autoplay muted loop>
-                <source src="pizza.mp4">
-            </video>
-            <div class="portada">
-                <p class="parra1">Pizzeria Lara</p>
-                <p class="parra2">El mejor sabor directo a tu casa</p>
-                <img src="portada.jpg"><br>
-
-                <p class="info">Sobre Nosotros</p>
-                <p class="final">Bienvenidos a la Pizzeria Deliciosa, un lugar donde el sabor se convierte en una experiencia<br>
-                única. Aquí encontrarás las mejores pizzas, elaboradas con los ingredientes más frescos y<br>
-                seleccionados con cuidado para ti.</p>
-            </div>
-
-            <div class="galeria">
+        <table>
+            <thead>
+                <tr>
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Ingredientes</th>
+                    <th>Precio (S/)</th>
+                </tr>
+            </thead>
             
-                <img class="a" src="prime.jpg">
-                <img class="b" src="segun.jpg">
-                <img class="c" src="terce.jpg">
-                <img class="d" src="cuarta.jpg">
-            </div>
-
-
-        </body>
-
+                <tbody>
+                    <tr>
+                        <td><img src="pizza_hawaiana.jpg" alt="Hawaiana"></td>
+                        <td>Hawaiana</td>
+                        <td>Jamón, piña, mozzarella, salsa de tomate</td>
+                        <td>25.00</td>
+                    </tr>
+                    <tr>
+                        <td><img src="pizza_peperoni.jpg" alt="Peperoni"></td>
+                        <td>Peperoni</td>
+                        <td>Peperoni, mozzarella, orégano, salsa de tomate</td>
+                        <td>28.00</td>
+                    </tr>
+                    <tr>
+                        <td><img src="pizza_americana.jpg" alt="Americana"></td>
+                        <td>Americana</td>
+                        <td>Salchicha, tocino, cebolla, mozzarella, salsa BBQ</td>
+                        <td>30.00</td>
+                    </tr>
+                    <tr>
+                        <td><img src="pizza_doble.jpg" alt="Doble Queso"></td>
+                        <td>Doble Queso</td>
+                        <td>Queso cheddar, mozzarella, parmesano</td>
+                        <td>24.00</td>
+                    </tr>
+                    <tr>
+                        <td><img src="pizza_vegetariana.jpg" alt="Vegetariana"></td>
+                        <td>Vegetariana</td>
+                        <td>Pimientos, champiñones, aceitunas, cebolla</td>
+                        <td>24.00</td>
+                    </tr>
+                    <tr>
+                        <td><img src="pizza_carnivora.jpg" alt="carne"></td>
+                        <td>Carnívora</td>
+                        <td>Jamón, salchicha, carne molida, mozzarella</td>
+                        <td>32.00</td>
+                    </tr>
+                </tbody>
+         </table>
 </html>
