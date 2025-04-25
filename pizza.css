@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+video{
+    width: 100%;        /* Ocupa todo el ancho */
+    height: 500%;       /* Mantiene la proporción original de la altura */
+    object-fit: cover;  /* Se asegura de que el video cubra todo el ancho */
+    position: relative; /* Posiciona el video de forma absoluta */
+    z-index: -1;        /* Asegura que el video quede detrás del contenido */
+    filter: brightness(55%);
+}
+
+ul{
+    background-color: rgb(173, 17, 17);
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    word-spacing: 10px; /* Aumenta el valor para más separación */
+    list-style: none;
+    height: 45px;
+    margin-top: 5px;
+}
+
+li{
+    text-align: center;
+}
+
+.pizza{
+    flex: auto;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+img{
+    width: 250px;
+    border-radius: 5px;
+}
+
+.portada{
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(180, 4, 4);
+    height: 500px;
+    margin-bottom: 400px;
+    margin-top: -15px;
+}
+
+.parra1{
+    font-size: 40px;
+    font-family: "Great Vibes", cursive;
+    color: white;
+    font-weight: bold;
+}
+
+.parra2{
+    font-size: 25px;
+    color: white;
+}
+
+.info{
+    padding-top: 100px;
+    color: rgb(192, 36, 36);
+    font-size: 40px;
+    
+}
+
+.galeria{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.a:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;
+}
+
+.b:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;
+}
+
+.c:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;
+}
+
+.d:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;
+}
+
+.pizza:hover{
+    color: rgb(167, 18, 18);
+    background-color: rgb(195, 195, 11);
+    border-radius: 50px;
+}
+
+.wsp{
+    position: fixed;
+    z-index: 1;
+    font-size: 40px;
+    color: rgb(16, 208, 16);
+    bottom: 10px;
+    margin-left: 1850px;
+
+}
+
+.lista{
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(173, 17, 17);
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    word-spacing: 10px; 
+    list-style: none;
+    height: 70px;
+    margin-top: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
